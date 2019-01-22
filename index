@@ -1,1 +1,233 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cssJob</title>
+	<meta charset='utf-8'>
+	<link rel="stylesheet" href="cssJob.css">
+</head>
+<body>
+	<!-- 装下整个网页的盒子有必要吗 -->
+	<div class="wrap">
+		<!-- 顶部 -->
+		<div class="head">
+			<!-- logo -->
+			<div class="logo">
+				<img src="./images/logo.png" alt="无图">
+			</div>
+			<!-- 导航 -->
+			<div class="headNav">
+				<ul>
+					<li>HOME</li>
+					<li>ABOUT</li>
+					<li>GALLERY</li>
+					<li>FACULTY</li>
+					<li>EVENTS</li>
+					<li>CONTACT</li>
+				</ul>
+			</div>
+		</div>
+		<!-- banne区域 -->
+		<div class="banner">
+			<!-- 表单区域 -->
+			<div>
+				<ul>
+					<li>
+						
+						<input type="text"    placeholder="  you name" >
+						
+					</li>
+					<li>
+						<input type="text" placeholder="  your Phone">
+					</li>
+					<li>
+						<input type="text" placeholder="  your Email">
+					</li>
+					<li>
+						<textarea placeholder="  Write Your Comment Here"></textarea>
+					</li>
+					<li>
+						<input type="submit" class="submit" value="SENT MESSAGE">
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- about区域 -->
+		<div class="about">
+			<!-- 顶部介绍文字topWord -->
+			<div class="topWord">
+				<h1>about</h1>
+				<!-- 线条 -->
+				<div class="topLine"></div>
+				<!-- <hr> -->
+				<p class="Description">
+					Lorem Ipsum is simply dummy text of the printing and typesetting
+					<br>
+					industry. Lorem Ipsumhas been the industry`s standard dummy 
+					<br>
+					 text ever since the 1500s.
+				</p>
+			</div>
+			<!-- 中部三栏 -->
+			<div class="mid">
+				<!-- 左侧文字 -->
+				<div class="left">
+					<div>
+						<h1>
+						a word <br> 
+						about us
+						</h1>
+					</div>
+					<div class="wordBox">
+						Praesent dignissim viverra esl,sed
+						<br>
+						bibenddum ligula congur non. sed ac nos 
+						<br>
+						et feli gravida commodo? Suspendisse
+						<br>
+						eget ullamcorper ipsum. suspendisse
+						<br>
+						diam amet 
+						<div class="explore">
+							EXPLORE
+						</div>
+					</div>
+				</div>
+				<!-- 中部图像 -->
+				<div class="midImg">
+					<img src="./images/bb3.jpg" alt="there is a img">
+				</div>
+				<!-- 右侧框框 -->
+				<div class="right">
+					<div class="box">
+						<span>70000</span>
+						<hr>
+						<span>Students</span> 
+					</div>
+					<div class="box">
+						<span>600</span>
+						<hr>
+						<span>faulty</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- gallery区域 -->
+		<div class="gallery">
+			<!-- 行1 -->
+			<div class="galleryLine1">
+				<div class="galleryBox1">
+					<img src="./images/b1.jpg" alt="">
+				</div>
+				<div class="galleryBox">
+					<h1>title</h1>
+					<h2>nginx [engine x] is an HTTP and reverse proxy server,<br> a mail proxy server,<br>
+					</h2>
+					<p>nginx [engine x] is an HTTP and reverse proxy server,<br> a mail proxy server,<br> and a generic TCP/UDP proxy server, <br>originally written by Igor Sysoev. 	<br> For a long time, <br>it has been running on many heavily loaded Russian sites including Yandex, <br>Mail.Ru, VK, and Rambler. </p>
+				</div>
+				<div class="galleryBox1">
+					<img src="./images/b1.jpg" alt="">
+				</div>
+				<div class="galleryBox">
+					<h1>title</h1>
+					<h2>nginx [engine x] is an HTTP and reverse proxy server,<br> a mail proxy server,<br>
+					</h2>
+					<p>nginx [engine x] is an HTTP and reverse proxy server,<br> a mail proxy server,<br> and a generic TCP/UDP proxy server, <br>originally written by Igor Sysoev. 	<br> For a long time, <br>it has been running on many heavily loaded Russian sites including Yandex, <br>Mail.Ru, VK, and Rambler. </p>
+				</div>
+			</div>
+			<!-- 行二 -->
+			<div class="galleryLine2">
+				<div class="galleryBox">
+					<h1>title</h1>
+					<h2>nginx [engine x] is an HTTP and reverse proxy server,<br> a mail proxy server,<br>
+					</h2>
+					<p>nginx [engine x] is an HTTP and reverse proxy server,<br> a mail proxy server,<br> and a generic TCP/UDP proxy server, <br>originally written by Igor Sysoev. 	<br> For a long time, <br>it has been running on many heavily loaded Russian sites including Yandex, <br>Mail.Ru, VK, and Rambler. </p>
+				</div>
+				<div class="galleryBox1">
+					<img src="./images/b1.jpg" alt="">
+				</div>
+				<div class="galleryBox">
+					<h1>title</h1>
+					<h2>nginx [engine x] is an HTTP and reverse proxy server,<br> a mail proxy server,<br>
+					</h2>
+					<p>nginx [engine x] is an HTTP and reverse proxy server,<br> a mail proxy server,<br> and a generic TCP/UDP proxy server, <br>originally written by Igor Sysoev. 	<br> For a long time, <br>it has been running on many heavily loaded Russian sites including Yandex, <br>Mail.Ru, VK, and Rambler. </p>
+				</div>
+				<div class="galleryBox1">
+					<img src="./images/b1.jpg" alt="">
+				</div>
+			</div>
+			<!-- 行3文字部分、 -->
+			<div class="galleryLine3">
+				<h1>GALLERY</h1>
+				<hr>
+				<p>
+					saf asf kla fsdakl fadsf asfk lmda <br>
+					agjadsgklag ag klndmg d agsdal nkga ga lnka 	<br>
+					as gdkag a <br>	
+				</p>
+			</div>
+			<!-- 行四 图片 -->
+			<div class="galleryLine4">
+				<!-- 第一行 -->
+				<div class="line1">
+					<div class="box">
+						<div class="img">
+							<img src="./images/03-01.jpg" alt="">
+						</div>
+						<div class="text">
+							随便写几个
+						</div>
+					</div>
+					<div class="box">
+						<div class="img">
+							<img src="./images/03-02.jpg" alt="">
+						</div>
+						<div class="text">
+							随便写几个
+						</div>
+					</div>
+					<div class="box">
+						<div class="img">
+							<img src="./images/03-03.jpg" alt="">
+						</div>
+						<div class="text">
+							随便写几个
+						</div>
+					</div>
+				</div>
+				<div class="line2">
+					<div class="box">
+						<div class="img">
+							<img src="./images/03-04.jpg" alt="">
+						</div>
+						<div class="text">
+							随便写几个
+						</div>
+					</div>
+					<div class="box">
+						<div class="img">
+							<img src="./images/03-05.jpg" alt="">
+						</div>
+						<div class="text">
+							随便写几个
+						</div>
+					</div>
+					<div class="box">
+						<div class="img">
+							<img src="./images/03-06.jpg" alt="">
+						</div>
+						<div class="text">
+							随便写几个
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 页脚 -->
+		
+	</div>
+	<div class="foot">
+			&copy2016 imooc.com 京ICP备13046642号
+	</div>
+</body>
+</html>
