@@ -1,0 +1,163 @@
+.top .wrap .left,.top .wrap .right{
+	box-sizing: border-box;
+	width: 50%;
+	height: 100%;
+	color: #868686;
+	font-size: 10px;
+	float: left;
+}
+.top .wrap .left img{
+	width: 10px;
+}
+.top .wrap .right a{
+	color: #5bb8e8;
+}
+.top .wrap .right{
+	padding-left: 220px;
+} 
+.head-logo{
+	width: 50%;
+	height: 100%;
+	float: left;
+	padding: 13px 0px 13px 0px;
+	box-sizing: border-box;
+}
+.head-logo img{
+	width: 403px;
+	height: 74px;
+}
+.head-search{
+	width: 50%;
+	height: 100%;
+	padding: 30px 0px 30px 0px;
+	float: left;
+	box-sizing: border-box;
+	text-align: right;
+}
+.head-search img{
+	width: 326px;
+	height: 38px;
+}
+.contain .nav{
+	box-sizing: border-box;
+	padding-left: 220px;
+	background: #6ac5ef;
+	overflow: hidden;
+}
+.contain .nav ul,.contain .nav li{
+	height: 36px;
+	line-height: 36px;
+	padding: 0 30px; 
+	float: left;
+	color: #ffffff;
+	background: #6ac5ef;
+}
+.contain .nav-left{
+	margin-top: -36px;
+}
+.nav-left div{
+	width: 200px;
+	height: 39px;
+}
+.nav-nav{
+	width: 200px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+}
+.nav-left{
+	color: #ffffff;
+	font-size: 12px;
+}
+
+.nav-left span{
+	font-size: 16px;
+}
+/*.nav-left span:after{
+	content: "空格";
+	color: #2caced;
+}*/
+.nav-left .left{
+	width: 200px;
+	height: 38px;
+	line-height: 38px;
+	text-align: left;
+	position: absolute;	
+
+}
+.nav-left .right{
+	width: 192px;
+	height: 38px;
+	padding-right: 8px; 
+	line-height: 38px;
+	text-align: right;
+}
+.banner img{
+	width: 530px;
+	height: 414px;
+}
+.content,.contant-help{
+	background: #f4f6fa;
+}
+.content .title{
+	width: 170px;
+	height: 50px;
+	margin: 0 auto;
+	text-align: center;
+	line-height:50px;
+	color: #fecd09;
+}
+.input,.submit{
+	height: 30px;
+	text-align: center;
+	color: #868686;
+}
+ .submit input{
+	border: 1px solid #fecd09;
+	background: #fecd09;
+	color: #fafafa;
+	border-radius: 5%;
+
+}
+.input select{
+	width: 170px;
+	height: 20px;
+	line-height: 20px;
+	color: #868686;
+	font-size: 12px;
+}
+.contant-help{
+	color: #1fa4f0;
+	text-align: left;
+}
+.contant-help .title{
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+}
+.help-content{
+	width: 210px;
+	height: 150px;
+	margin: 0 auto;
+}
+.box-left,.box-right{
+	height: 42px;
+	line-height: 42px;
+	width: 40%;
+	float: left;
+	margin: 4%;
+	text-align: left;
+	box-sizing: border-box;
+	padding: 5px 10px 5px 10px;
+}
+.box-right{
+	float: left;
+	text-align: right;
+}
+.contant-help a{
+	color: #1fa4f0;
+}
+.box:hover{
+	background: #fc97fc;
+	
+}
